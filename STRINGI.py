@@ -1,4 +1,5 @@
 import math
+from curses.ascii import isalnum
 from itertools import count
 
 # s = "In 2010, someone paid 10k Bitcoin for two pizzas."
@@ -289,12 +290,45 @@ from itertools import count
 #         print(i,':',' ', comment, sep='')
 
 
+# nik = input()
+#
+# if nik[0] == '@' and 5 <= len(nik) <= 15 and nik[1:].isalnum() and (nik[1:].islower() or nik[1:].isdigit()):
+#     print('Correct')
+# else:
+#     print('Incorrect')
 
 
 
+# number = input()
+#
+# alpha = 'АВЕКМНОРСТУХ'
+#
+# if (number[0] in alpha
+#     and number[1:4].isdigit()
+#     and number[4] in alpha
+#     and number[5] in alpha
+#     and number[6] == '_'
+#     and number[7:10].isdigit()
+#     and 9 <= len(number) <= 10):
+#
+#     print('YES')
+# else:
+#     print('NO')
 
+# day = input()
+# euro = input()
+# uan = input()
+#
+# s = f'На {day}: 1€ = {euro}₽, 1¥ = {uan}₽'
+#
+# print(s)
 
+a = int(input())
+b = int(input())
 
+print(f'Для чисел {a} и {b}:')
+print(f'    Сумма кубов: {a}**3 + {b}**3 = {a ** 3 + b ** 3}')
+print(f'    Куб суммы: ({a} + {b})**3 = {(a + b)**3}')
 
 
 
