@@ -323,22 +323,79 @@ from itertools import count
 #
 # print(s)
 
-a = int(input())
-b = int(input())
-
-print(f'Для чисел {a} и {b}:')
-print(f'    Сумма кубов: {a}**3 + {b}**3 = {a ** 3 + b ** 3}')
-print(f'    Куб суммы: ({a} + {b})**3 = {(a + b)**3}')
-
-
+# a = int(input())
+# b = int(input())
+#
+# print(f'Для чисел {a} и {b}:')
+# print(f'    Сумма кубов: {a}**3 + {b}**3 = {a ** 3 + b ** 3}')
+# print(f'    Куб суммы: ({a} + {b})**3 = {(a + b)**3}')
 
 
+# day = int(input())
+# weight = float(input())
+#
+# correct_weight = 100 - (0.2 * day)
+#
+# if weight <= correct_weight:
+#     print(f'Все идет по плану \n'
+#           f'#{day} ДЕНЬ: ТЕКУЩИЙ ВЕС = {weight} кг, ЦЕЛЬ по ВЕСУ = {correct_weight} кг')
+#
+# else:
+#     print(f'Что-то пошло не так \n'
+#           f'#{day} ДЕНЬ: ТЕКУЩИЙ ВЕС = {weight} кг, ЦЕЛЬ по ВЕСУ = {correct_weight} кг')
 
 
+# letter = ord(input())
+#
+# if letter == 1071:
+#     print('Дальше букв нет')
+# else:
+#     print(chr(letter + 1))
 
 
+# a = int(input())
+# b = int(input())
+#
+# for i in range(a, b + 1):
+#     print(chr(i), end=' ')
 
 
+# s = input()
+#
+# for i in s:
+#     print(ord(i), end=' ')
 
+
+# word = input()
+# word1 = input()
+# word2 = input()
+# word3 = input()
+# count = 0
+# count1 = 0
+# count2 = 0
+# count3 = 0
+#
+# for i in range(len(word)):
+#     count += ord(word[i])
+#
+# for j in range(len(word1)):
+#     count1 += ord(word1[j])
+#
+# for h in range(len(word2)):
+#     count2 += ord(word2[h])
+#
+# for n in range(len(word3)):
+#     count3 += ord(word3[n])
+#
+# max_count = (max(count, count1, count2, count3))
+#
+# if max_count == count:
+#     print(word)
+# elif max_count == count1:
+#     print(word1)
+# elif max_count == count2:
+#     print(word2)
+# else:
+#     print(word3)
 
 
