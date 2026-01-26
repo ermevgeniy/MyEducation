@@ -399,3 +399,82 @@ from itertools import count
 #     print(word3)
 
 
+# -------------------------------
+
+# s = input()
+# count = 0
+#
+# for i in s:
+#     count += ord(i)
+# print(f"Текст сообщения: '{s}'")
+# print(f'Стоимость сообщения: {count * 3}🐝')
+
+
+# -------------------------------
+
+# s = input()
+# count = 0
+# count1 =0
+# eng = 'eyopaxcETOPAHXCBM'
+# rus = 'еуорахсЕТОРАНХСВМ'
+#
+# for i in s:
+#     count += ord(i)
+#
+# for h in range(len(eng)):
+#     s = s.replace(eng[h], rus[h])
+# for g in s:
+#     count1 += ord(g)
+#
+# print(f'Старая стоимость: {count * 3}')
+# print(f'Новая стоимость: {count1 * 3}')
+
+# ---------------------------------
+# шифр Цезаря
+# n = int(input())
+# s = input()
+#
+# for i in s:
+#     new = ord(i) - n
+#     if new < 97:
+#         new += 26
+#     print(chr(new), end='')
+
+
+
+# word = input()
+# word1 = input()
+# word2 = input()
+# word3 = input()
+#
+# max_word = max(word, word1, word2, word3)
+# min_word = min(word, word1, word2, word3)
+#
+# magic = (ord(max_word[-1]) * ord(min_word[-1])) ** 2
+#
+# print(magic)
+
+# word = input()
+# max_word = ''
+# min_word = word
+# while word != 'КОНЕЦ':
+#     if min_word > word:
+#         min_word = word
+#     if max_word < word:
+#         max_word = word
+#
+#     word = input()
+#
+# print('Минимальная строка ⬆️:', min_word)
+# print('Максимальная строка ⬆️:', max_word)
+
+
+
+
+
+
+
+
+
+
+
