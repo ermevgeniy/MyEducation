@@ -469,12 +469,111 @@ from itertools import count
 # print('Максимальная строка ⬆️:', max_word)
 
 
+# s = input()
+# s1 = input()
+# character = 'abcdefghijklmnopqrstuvxyzабвгдеёжзийклмнопрстуфхцчшщъыьэюя'
+# count = ''
+# count1 = ''
+# for i in s.lower():
+#     if i in character:
+#         count += i
+# for i in s1.lower():
+#     if i in character:
+#         count1 += i
+# if count == count1:
+#     print('YES')
+#
+# else:
+#     print('NO')
+
+# ---------------------------
+
+# text = input()
+# text1 = input()
+# text2 = input()
+#
+# lst = [text, text1, text2]
+#
+# lst.sort()
+#
+# print(*lst)
+
+# ---------------------------
+
+# n = int(input())
+#
+# char = '0123456789'
+# char2 = 'АБВГДЕЖЗИЙКЛМНОП'
+# count = 0
+# for i in range(n):
+#     n2 = input()
+#     if n2.isalpha() or n2.isdigit() or len(n2) > 2:
+#         print('NO')
+#         continue
+#     for h in range(len(n2)):
+#         if n2[0] in char and n2[1] in char2:
+#             count += 1
+#     if count == 2:
+#         print('YES')
+#     else:
+#         print('NO')
+#
+#     count = 0
+
+# -------------------------------
+#
+# n = int(input())
+#
+# writer = input()
+#
+# for i in range(n - 1):
+#     author = input()
+#     if writer.split()[0] > author.split()[0]:
+#         print('NO')
+#         break
+#     if writer.split()[0] == author.split()[0]:
+#         if writer[writer.find('«') + 1:] > author[author.find('«') + 1:]:
+#             print('NO')
+#             break
+#     writer = author
+#
+# else:
+#     print('YES')
 
 
+# --------------------------------
+
+# s = input()
+# print(s.replace('1', 'one'))
+
+# --------------------------------
+
+# s = input()
+# count = 0
+# for i in s:
+#     if i == 'f':
+#       count += 1
+# if count == 0:
+#     print('-2')
+# elif count == 1:
+#     print('-1')
+# else:
+#     s = s.replace('f', 'a', 1 )
+#     print(s.find('f'))
 
 
+# --------------------------------
 
-
-
+# s = input()
+#
+# a = s[s.find('h'):]
+#
+# b = a[a.rfind('h'):: -1]
+#
+# c = s[0:s.find('h')]
+#
+# h = s[s.rfind('h')+1:]
+#
+# print(c + b + h)
 
 
