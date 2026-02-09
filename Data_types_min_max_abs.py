@@ -1,4 +1,5 @@
-
+import math
+from operator import length_hint
 
 # number = int(input())
 #
@@ -60,9 +61,13 @@
 #     print("NO")
 
 
-
-
-
+# n, k = map(int, input().split())
+#
+# a = math.factorial(n) / (math.factorial(k) * math.factorial(n - k))
+#
+# Cnk = a
+#
+# print(Cnk)
 
 
 

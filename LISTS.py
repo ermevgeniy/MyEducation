@@ -107,6 +107,160 @@ from itertools import count
 
 # --------------------
 
+# n = int(input())
+# count = []
+# count1 = []
+# for i in range(n):
+#     x = int(input())
+#     count.append(x)
+#     f = x ** 2 + 2 * x + 1
+#     count1.append(f)
+#
+# print(*count, sep='\n')
+# print()
+# print(*count1, sep='\n')
+
+# -----------------------
+
+# n = int(input())
+# count = []
+#
+# for i in range(n):
+#     num = int(input())
+#     count.append(num)
+# count.remove(max(count))
+# count.remove(min(count))
+#
+# print(*count, sep='\n')
+
+# ----------------------------
+
+# n = int(input())
+# count = []
+#
+# for i in range(n):
+#     str = input()
+#     if str not in count:
+#         count.append(str)
+#
+# print(*count, sep='\n')
+
+
+# -------------------------
+
+# n = int(input())
+# stringi = []
+# res = []
+# reg = []
+# count = []
+#
+# for i in range(n):
+#     text = input()
+#     stringi.append(text)
+#
+# k = int(input())
+# for j in range(k):
+#     request = input()
+#     reg.append(request.lower())
+#
+# for h in range(len(stringi)):
+#     for r in reg:
+#         if r not in stringi[h].lower():
+#             break
+#     else:
+#         count.append(stringi[h])
+#
+# print(*count, sep='\n')
+
+# -------------------------
+
+
+# n = int(input())
+# count_minus = []
+# count_zero = []
+# count_plus = []
+# for i in range(n):
+#     num_1 = int(input())
+#     if num_1 < 0:
+#         count_minus.append(num_1)
+#     if num_1 == 0:
+#         count_zero.append(num_1)
+#     if num_1 > 0:
+#         count_plus.append(num_1)
+#
+# print(*count_minus, sep='\n')
+# print(*count_zero, sep='\n')
+# print(*count_plus, sep='\n')
+
+
+# ----------------------
+
+# str = input()
+# str1 = str.split()
+#
+# for i in str1:
+#     print(i[0] + '.', end='')
+
+# -----------------------------
+
+# str = input()
+#
+# str1 = str.split('\\')
+#
+# print('\n'.join(str1))
+
+# -----------------------------
+
+# num = input().split('.')
+# count = 0
+# for i in range(len(num)):
+#     num[i] = int(num[i])
+#     if 0 <= num[i] <= 255:
+#         count += 1
+#
+# if count == 4:
+#     print('ДА')
+# else:
+#     print('НЕТ')
+
+# ------------------------------
+
+# str = input()
+# separator = input()
+# str1 = separator.join(str)
+#
+# print(str1)
+
+# -------------------------
+
+
+# s = input().split()
+# count = 0
+#
+# for i in range(len(s)):
+#     for h in range(i + 1, len(s)):
+#         if s[i] == s[h]:
+#             count += 1
+#
+# print(count)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
