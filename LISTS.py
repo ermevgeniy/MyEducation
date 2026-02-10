@@ -244,21 +244,45 @@ from itertools import count
 #
 # print(count)
 
+# ---------------------
 
+# numbers = [8, 9, 10, 11]
+# numbers[1] = 17
+# numbers.extend([4, 5, 6])
+# numbers.pop(0)
+# numbers.extend(numbers)
+# numbers.insert(3, 25)
+# print(numbers)
 
+# --------------------
 
+# s = input().lower()
+#
+# s1 = s.split()
+# counter = s1.count('a')
+# counter1 = s1.count('an')
+# counter2 = s1.count('the')
+#
+# total = counter + counter1 + counter2
+#
+# print('Общее количество артиклей:', total)
 
+# --------------------
 
+# str_num = input().split()
+# int_num = []
+# for i in range(len(str_num)):
+#     int_num.append(int(str_num[i]))
+#
+# index_max = int_num.index(max(int_num))
+# index_min = int_num.index(min(int_num))
+#
+#
+# int_num[index_max], int_num[index_min] = int_num[index_min], int_num[index_max]
+#
+# print(*int_num)
 
-
-
-
-
-
-
-
-
-
+# --------------------
 
 
 
