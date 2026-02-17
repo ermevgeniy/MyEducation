@@ -1,5 +1,7 @@
 from itertools import count, chain
+from operator import length_hint
 from re import split
+from symbol import continue_stmt
 
 #
 # n = input()
@@ -388,6 +390,47 @@ from re import split
 #
 # print(*quare)
 
+# --------------------
+# n = (input()).split()
+#
+# n1 = (input()).split()
+# c = []
+#
+# for i in range(len(n)):
+#     for g in range(len(n)):
+#         if i == g:
+#             c.append(int(n[i]) + int(n1[g]))
+#
+# print(c)
 
+# --------------------
+
+# n = (input()).split()
+# summa = 0
+#
+# for i in range(len(n)):
+#     summa += int(n[i])
+#
+# n1 = [int(i) for i in range(len(n))]
+#
+# print(*n, sep='+', end='=')
+# print(summa)
+
+
+# --------------------
+
+# n = input().split()
+#
+# length = [len(n[i]) for i in range(len(n))]
+#
+# print(max(length))
+
+# --------------------
+
+# c = [i[1:] + i[0] +'ки' for i in input().split()]
+#
+# print(*c)
+
+# --------------------
 
 
