@@ -1,4 +1,3 @@
-from itertools import count
 import math
 
 # def draw_box():
@@ -225,7 +224,7 @@ import math
 #
 # def quick_merge():
 #     n = int(input())
-#     list1 =[]
+#     list1 = []
 #     for _ in range(n):
 #         row = [int(c) for c in input().split()]
 #         list1.extend(row)
@@ -261,12 +260,153 @@ import math
 
 # --------------------------
 
-def is_palindrome(text):
-    text = ''.join(e for e in text if e.isalnum())
+# def is_palindrome(text):
+#     text = ''.join(e for e in text if e.isalnum())
+#
+#     if text == text[::-1]:
+#         return True
+#     else:
+#         return False
+#
+# print(is_palindrome(input().lower()))
 
-    if text == text[::-1]:
-        return True
-    else:
-        return False
 
-print(is_palindrome(input().lower()))
+# --------------------------
+
+# def is_one_away(word1, word2):
+#     counter = 0
+#     if len(word1) != len(word2):
+#         return False
+#     for i in range(0, len(word1)):
+#         if word1[i] == word2[i]:
+#             counter += 1
+#
+#     if counter + 1 == len(word1):
+#         return True
+#     else:
+#         return False
+#
+# txt1 = input()
+# txt2 = input()
+#
+# print(is_one_away(txt1, txt2))
+
+# --------------------------
+
+# def convert_to_python_case(text):
+#     s = text[0].lower()
+#     for i in range(1, len(text)):
+#         if text[i].isupper():
+#             s += '_' + text[i].lower()
+#         else:
+#             s += text[i]
+#     return s
+#
+# txt = input()
+#
+# print(convert_to_python_case(txt))
+
+# --------------------------
+
+# def is_prime(num):
+#     counter = 0
+#     for i in range(1, num + 1):
+#         if num % i == 0:
+#             counter += 1
+#
+#     if counter == 2:
+#         return True
+#     else:
+#         return False
+#
+# n = int(input())
+#
+# print(is_prime(n))
+
+# --------------------------
+#
+# def get_next_prime(num):
+#     counter = 0
+#     while counter != 2:
+#         counter = 0
+#         num += 1
+#         for i in range(1, num + 1):
+#             if num % i == 0:
+#                 counter += 1
+#
+#     return num
+#
+# print(get_next_prime(int(input())))
+
+# --------------------------
+
+# def is_password_good(password):
+#     counter = 0
+#     counter1 = 0
+#     counter2 = 0
+#     if len(password) < 8:
+#         return False
+#     for i in range(len(password)):
+#         if password[i].isupper():
+#             counter += 1
+#         if password[i].islower():
+#             counter1 += 1
+#         if password[i].isdigit():
+#             counter2 += 1
+#     if counter != 0 and counter1 != 0 and counter2 != 0:
+#         return True
+#     else:
+#         return False
+# print(is_password_good(input()))
+
+
+# --------------------------
+
+# def is_correct_bracket(text):
+#     counter = 0
+#
+#     for i in text:
+#         if counter < 0:
+#             return False
+#         if i == '(':
+#             counter += 1
+#         if i == ')':
+#             counter -= 1
+#
+#     if counter == 0:
+#         return True
+#     else:
+#         return False
+#
+# print(is_correct_bracket(input()))
+
+# --------------------------
+#
+# def is_valid_password(p):
+#     counter = 0
+#     c = 0
+#     if len(p) != 3:
+#         return False
+#
+#     if p[0] == p[0][::-1]:
+#         counter += 1
+#
+#     num = [int(i) for i in p]
+#     for i in range(1, num[1] + 1):
+#         if num[1] % i == 0:
+#             c += 1
+#
+#     if c == 2:
+#         counter += 1
+#
+#     if num[2] % 2 == 0:
+#         counter += 1
+#
+#     if counter == 3:
+#         return True
+#     else:
+#         return False
+#
+# print(is_valid_password(input().split(':')))
+
+# --------------------------
