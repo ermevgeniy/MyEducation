@@ -1,5 +1,7 @@
 import math
 
+from future.utils import lrange
+
 # def draw_box():
 #     for i in range(14):
 #         if i != 0 and i != 13:
@@ -408,5 +410,116 @@ import math
 #         return False
 #
 # print(is_valid_password(input().split(':')))
+
+# --------------------------
+#
+# def get_middle_point(x1, y1, x2, y2):
+#     x = (x1 + x2) / 2
+#     y = (y1 + y2) / 2
+#     return x, y
+#
+# x_1, y_1 = int(input()), int(input())
+# x_2, y_2 = int(input()), int(input())
+#
+# x, y = get_middle_point(x_1, y_1, x_2, y_2)
+# print(x, y)
+
+# --------------------------
+
+# def get_circle(radius):
+#     p = math.pi
+#     c = 2 * p * r
+#     s = p * (r ** 2)
+#     return c, s
+# r = float(input())
+#
+# length, square = get_circle(r)
+# print(length, square)
+
+# --------------------------
+
+# def solve(a, b, c):
+#     d = (b ** 2) - (4 * a * c)
+#
+#     x1 = (-b - math.sqrt(d)) / (2 * a)
+#     x2 = (-b + math.sqrt(d)) / (2 * a)
+#     return (min(x1, x2)), (max(x1, x2))
+#
+# a, b, c = int(input()), int(input()), int(input())
+#
+# x1, x2 = solve(a, b, c)
+# print(x1, x2)
+
+
+# --------------------------
+# def draw_triangle():
+#
+#     for i in range(8):
+#         a = 7 - i
+#         b = 2 * i + 1
+#         print(' ' * a + '*' * b)
+#
+# draw_triangle()
+
+# --------------------------
+
+# def get_shipping_cost(quantity):
+#     summa = 0
+#     for i in range(quantity):
+#         if i == 0:
+#             summa += 1000
+#         if i != 0:
+#             summa += 120
+#     return summa
+#
+# print(get_shipping_cost(int(input())))
+
+# --------------------------
+
+# def compute_binom(n, k):
+#     a = n - k
+#     b = math.factorial(n) / (math.factorial(k) * math.factorial(a))
+#     return int(b)
+#
+# print(compute_binom(int(input()), int(input())))
+
+# --------------------------
+# lng_ru = ['январь', 'февраль', 'март', 'апрель', 'май', 'июнь', 'июль', 'август', 'сентябрь', 'октябрь', 'ноябрь', 'декабрь']
+# lng_en = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december']
+#
+# def get_month(language, number):
+#     if 'ru' == language:
+#         return lng_ru[number - 1]
+#     elif 'en' == language:
+#         return lng_en[number - 1]
+#
+# print(get_month(input(), int(input())))
+
+# --------------------------
+# def is_magic(date):
+#     if int(date[0]) * int(date[1]) == int(date[2][2:]):
+#         return True
+#     else:
+#         return False
+#
+# print(is_magic(input().split('.')))
+
+# --------------------------
+# pan = "abcdefghijklmnopqrstuvwxyz"
+#
+# def is_pangram(text):
+#     counter = ''
+#     for i in pan:
+#         if i in text:
+#             counter += i
+#
+#     if counter == pan:
+#         return True
+#     else:
+#         return False
+#
+# text = input().lower()
+#
+# print(is_pangram(text))
 
 # --------------------------
