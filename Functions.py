@@ -1,7 +1,7 @@
 import math
+from random import *
 
-from future.utils import lrange
-
+# --------------------------
 # def draw_box():
 #     for i in range(14):
 #         if i != 0 and i != 13:
@@ -523,3 +523,15 @@ from future.utils import lrange
 # print(is_pangram(text))
 
 # --------------------------
+
+
+
+
+
+
+
+
+
+
+
+
